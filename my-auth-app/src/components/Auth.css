@@ -1,0 +1,118 @@
+.auth-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #4e54c8, #8f94fb);
+  }
+  
+  .auth-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+  }
+  
+  input {
+    width: calc(100% - 20px); /* Adjusted width */
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }/* Default styles for larger screens */
+.auth-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #4e54c8, #8f94fb);
+}
+
+.auth-box {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  text-align: center;
+}
+
+input {
+  width: calc(100% - 20px);
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.signup-btn {
+  background-color: #6ab04c;
+  color: #fff;
+}
+
+.login-btn {
+  background-color: #3498db;
+  color: #fff;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+h2 {
+  color: #333;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+  .auth-container {
+      flex-direction: column;
+  }
+
+  .auth-box {
+      width: 100%;
+      margin: 10px;
+  }
+}
+
+  
+  button {
+    width: 100%;
+    margin-top: 10px; /* Added margin to separate button from inputs */
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .signup-btn {
+    background-color: #6ab04c;
+    color: #fff;
+  }
+  
+  .login-btn {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
